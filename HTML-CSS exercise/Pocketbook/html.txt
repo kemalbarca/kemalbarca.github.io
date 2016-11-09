@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/pocketbook/logo.svg" width="100" height="100"/>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <h1>Join Pocketbook</h1>
+        <form>
+          <div class="form-group">
+    <label for="firstField">First Name</label>
+    <input type="field" class="form-control" id="inputFirst">
+  </div>
+          <div class="form-group">
+    <label for="secondField">Last Name</label>
+    <input type="field" class="form-control" id="inputSecond">
+  </div>
+    <div class="form-group">
+    <label for="emailField">Email address</label>
+    <input type="email" class="form-control" id="inputEmail">
+  </div>
+  <div class="form-group">
+    <label for="passwordField">Password</label>
+    <input type="password" class="form-control" id="inputPassword">
+  </div>
+  <button type="submit" class="btn btn-success">Create Account</button>
+</form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <ul>
+          <li>Contact
+          <li>Help Center
+          <li>About
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
